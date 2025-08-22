@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammad Elahi - Reels Editor & Photographer</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light Gray */
+            color: #1f2937; /* Dark Gray */
+        }
+        .container {
+            max-width: 1200px;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 50%;
+            height: 3px;
+            background-color: #3b82f6; /* Blue */
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <!-- Header -->
+    <header class="bg-white shadow-md py-4">
+        <nav class="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
+            <div class="text-2xl font-bold text-gray-800">
+                Hammad Elahi
+            </div>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="text-gray-600 hover:text-blue-600 font-medium rounded-md">Home</a></li>
+                <li><a href="#about" class="text-gray-600 hover:text-blue-600 font-medium rounded-md">About</a></li>
+                <li><a href="#portfolio" class="text-gray-600 hover:text-blue-600 font-medium rounded-md">Portfolio</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium rounded-md">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-20 md:py-32 flex items-center justify-center">
+        <div class="container mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-up">
+                Hammad Elahi
+            </h1>
+            <p class="text-xl sm:text-2xl font-light mb-8 animate-fade-in-up delay-200">
+                Capturing Moments, Crafting Stories.
+            </p>
+            <a href="#portfolio" class="inline-block bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
+                View My Work
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-10 mx-auto w-fit">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10">
+                <div class="md:w-1/3">
+                    <!-- Placeholder image for profile picture -->
+                    <img src="https://cdn.inflact.com/media/474322991_9514046971980459_5284549781319750941_n.jpg?url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.29350-15%2F474322991_9514046971980459_5284549781319750941_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_tt6%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D103%26_nc_oc%3DQ6cZ2QG2kn3Dq_Hhq_-o0qnlVlvE4UR5B2wRMma-f6N0o1VO1DaAc2jT4wAXqG_8ZmxOOc0%26_nc_ohc%3DSGjFNy_4E9MQ7kNvwG1ux3v%26_nc_gid%3D41XN6KXY1WP41KQvu_iLTQ%26edm%3DAOQ1c0wBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzU0OTgwMTY2NjU0OTY4OTc0OQ%253D%253D.3-ccb7-5%26oh%3D00_AfVC23DTVQFrWimIACTFsBgpux5aaSqDbPAX0n-KeK-zQQ%26oe%3D68AE521E%26_nc_sid%3D8b3546&time=1755878400&key=1b3c2a3f304f7034e5c0d1d3a41cbe00" alt="Hammad Elahi Profile" class="rounded-full shadow-lg w-64 h-64 object-cover mx-auto">
+                </div>
+                <div class="md:w-2/3 text-lg text-gray-700 leading-relaxed">
+                    <p class="mb-4">
+                        Hello! I'm Hammad Elahi, a passionate **reels editor and photographer** dedicated to bringing visions to life through dynamic visuals. With a keen eye for detail and a knack for storytelling, I specialize in creating captivating short-form videos and stunning photographic narratives.
+                    </p>
+                    <p class="mb-4">
+                        My journey began with a fascination for freezing moments in time and has evolved into crafting engaging visual content that resonates with audiences. Whether it's a fast-paced reel for social media or a serene landscape photograph, I strive for excellence in every project.
+                    </p>
+                    <p>
+                        I work with individuals and brands to help them tell their stories effectively, ensuring that every frame and every cut contributes to a powerful and memorable experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-10 mx-auto w-fit">My Portfolio</h2>
+
+            <!-- Image Gallery -->
+            <h3 class="text-2xl font-semibold text-gray-700 mb-6 text-center">Photography Work</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Image Placeholder 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+                    <!-- REPLACE 'src' WITH YOUR IMAGE PATH -->
+                    <img src="https://cdn.inflact.com/media/535324411_18280735615275217_1935502711437288998_n.jpg?url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.2885-15%2F535324411_18280735615275217_1935502711437288998_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D101%26_nc_oc%3DQ6cZ2QGjrymOMBP3iCCgnCQYNxxLKHAFcsKOTnHsHZ10eEZxqgcYlXqK9NrwGEnVA0dP0qI%26_nc_ohc%3D70G1mjDsdlEQ7kNvwFqZjSz%26_nc_gid%3DZYFowrp1G5MqZkrTeNRbog%26edm%3DAOQ1c0wBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzcwMzM3MjA2MTkxODk0OTk2Nw%253D%253D.3-ccb7-5%26oh%3D00_AfV1mUNDC_wUy47x4l-MYJOKJVAawt3IL3xyp5b7XpT1Rw%26oe%3D68AE4FD9%26_nc_sid%3D8b3546&time=1755878400&key=06e7dd4509aa119c00a5cc193a2cedb9" alt="Portfolio Image 1" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <p class="text-gray-800 font-semibold">A Visual of the Masjid</p>
+                        <p class="text-gray-600 text-sm">The sky turned into art… and my Mobile was the brush. 🌌📸
+                        </p>
+                    </div>
+                </div>
+                <!-- Image Placeholder 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+                    <!-- REPLACE 'src' WITH YOUR IMAGE PATH -->
+                    <img src="https://cdn.inflact.com/media/502603453_18272054614275217_5576398733294963740_n.jpg?url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.2885-15%2F502603453_18272054614275217_5576398733294963740_n.jpg%3Fstp%3Ddst-jpg_e35_p1080x1080_sh0.08_tt6%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D101%26_nc_oc%3DQ6cZ2QGjrymOMBP3iCCgnCQYNxxLKHAFcsKOTnHsHZ10eEZxqgcYlXqK9NrwGEnVA0dP0qI%26_nc_ohc%3DFC9vGF38BBYQ7kNvwHVgT4m%26_nc_gid%3DZYFowrp1G5MqZkrTeNRbog%26edm%3DAOQ1c0wBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzY0NTU0NzAyODg1MzMwOTg5OQ%253D%253D.3-ccb7-5%26oh%3D00_AfWIp6aHg1pbQrV_2TCYGc6wwQVqGCs3guAQbueSbUzayA%26oe%3D68AE7644%26_nc_sid%3D8b3546&time=1755878400&key=e1d16b668cf76284fc02ab917a1f229e" alt="Portfolio Image 2" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <p class="text-gray-800 font-semibold">Where the minarets kiss the sky, faith finds its home</p>
+                        <p class="text-gray-600 text-sm">Capturing the essence of the moment.</p>
+                    </div>
+                </div>
+                <!-- Image Placeholder 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+                    <!-- REPLACE 'src' WITH YOUR IMAGE PATH -->
+                    <img src="https://cdn.inflact.com/media/475036163_18257958721275217_326139803392606224_n.jpg?url=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.2885-15%2F475036163_18257958721275217_326139803392606224_n.jpg%3Fstp%3Ddst-jpg_e35_tt6%26efg%3DeyJ2ZW5jb2RlX3RhZyI6IkZFRUQuaW1hZ2VfdXJsZ2VuLjE0NDB4MTQ0MC5zZHIuZjc1NzYxLmRlZmF1bHRfaW1hZ2UuYzIifQ%26_nc_ht%3Dinstagram.fjai1-1.fna.fbcdn.net%26_nc_cat%3D101%26_nc_oc%3DQ6cZ2QH1LHV26CigcUwuIPTCLd4wNql1T9iaKvBTqkkUyqgvehQYqRmAKmejNbRRv6ESUH4K7S-BVm6pakEGOBXmHifx%26_nc_ohc%3DveJivSkSHn0Q7kNvwEEyak7%26_nc_gid%3D_9i6I5lvDzlKH06ZvI-REg%26edm%3DAPoiHPcBAAAA%26ccb%3D7-5%26ig_cache_key%3DMzU1MzI4MTM1NzMxNDQ1OTIxNg%253D%253D.3-ccb7-5%26oh%3D00_AfUYlOBzfzhYEgF-IQlJs3pYFwbcG_4NWgT1Z0rraWI2hQ%26oe%3D68AE51CD%26_nc_sid%3D22de04&time=1755878400&key=fc8487c8dca07aefa6aa19badc1b595b" alt="Portfolio Image 3" class="w-full h-auto object-cover">
+                    <div class="p-4">
+                        <p class="text-gray-800 font-semibold">Framing history through arches 📸✨</p>
+                        <p class="text-gray-600 text-sm">The architectural brilliance of Lodhi Garden stands as a timeless marvel, connecting the past to the present. 🌿🏛️</p>
+                    </div>
+                </div>
+                <!-- Add more image placeholders as needed -->
+            </div>
+
+            <!-- Video Gallery (Reels) -->
+            <h3 class="text-2xl font-semibold text-gray-700 mb-6 text-center">Reels & Video Editing</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video Placeholder 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+                    <!-- REPLACE 'src' WITH YOUR VIDEO PATH -->
+                    <video controls muted class="w-full h-auto object-cover">
+                        <source src="https://cdn.inflact.com/media/AQOCzoa0yjJhXxqy6C1OIAr8ixNH0klsipKcPOWfqhqiGdQXyYvKrWl_dQd9A-rNOwLbnnhw0aDIc09WCu5w_EQt0PHFblzqngtmIRU.mp4?url=https%3A%2F%2Fscontent.cdninstagram.com%2Fo1%2Fv%2Ft16%2Ff2%2Fm86%2FAQOCzoa0yjJhXxqy6C1OIAr8ixNH0klsipKcPOWfqhqiGdQXyYvKrWl_dQd9A-rNOwLbnnhw0aDIc09WCu5w_EQt0PHFblzqngtmIRU.mp4%3Fstp%3Ddst-mp4%26efg%3DeyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0%26_nc_cat%3D109%26vs%3D9778834172224818_2912356020%26_nc_vs%3DHBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yQjQ3MEZEQzkyNEFGMzZFMTkxRTUxQTAyODc4MTI4Q192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HSzBPMFI3UmxMQW9PNGdFQUlhYnBrR2VUNzFpYnFfRUFBQUYVAgLIARIAKAAYABsAFQAAJsq8252G08I%252FFQIoAkMzLBdAJ4gxJul41RgSZGFzaF9iYXNlbGluZV8xX3YxEQB1%252Fgdl5p0BAA%253D%253D%26_nc_rid%3D2505e50f54%26ccb%3D9-4%26oh%3D00_AfXrfpeD3wpQXTWfkEZUEYLiFznqz-H1ivrWvOi8IPihRw%26oe%3D68AA6E6D%26_nc_sid%3D8b3546&time=1755878400&key=f4036d33e35f86b0148040d900a7953f" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="p-4">
+                        <p class="text-gray-800 font-semibold">Glimpses of Metro</p>
+                        <p class="text-gray-600 text-sm">Jamia Nagar in baarish hits different — narrow lanes, chai stalls, and raindrops telling stories 🌧️☕📍</p>
+                    </div>
+                </div>
+                <!-- Video Placeholder 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+                    <!-- REPLACE 'src' WITH YOUR VIDEO PATH -->
+                    <video controls muted class="w-full h-auto object-cover">
+                        <source src="https://cdn.inflact.com/media/AQN1CwredPh4lWAVt536LXB2nJLAwK_0lyClsp7g77-cyBR9nxWtJqVzP7KMLHgythyWPRtQWI3mpqp931WqaSPFHka3U5BV8Qia5Lg.mp4?url=https%3A%2F%2Finstagram.febl5-1.fna.fbcdn.net%2Fo1%2Fv%2Ft16%2Ff2%2Fm82%2FAQN1CwredPh4lWAVt536LXB2nJLAwK_0lyClsp7g77-cyBR9nxWtJqVzP7KMLHgythyWPRtQWI3mpqp931WqaSPFHka3U5BV8Qia5Lg.mp4%3Fstp%3Ddst-mp4%26efg%3DeyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0%26_nc_cat%3D105%26vs%3D889802446129835_2216814846%26_nc_vs%3DHBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC9FODQ0RjZGMTRBQzcwNTU0RDFDN0Q4QzUzRDM1REJCQ192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRmxBNEJkUDdrWHpUd0FEQUE3NnZ5MjQtVm92YnFfRUFBQUYVAgLIARIAKAAYABsAFQAAJtidl8njwoZAFQIoAkMzLBdAEd0vGp%252B%252BdxgSZGFzaF9iYXNlbGluZV8xX3YxEQB1%252Fgdl5p0BAA%253D%253D%26_nc_rid%3Dd07c597ee2%26ccb%3D9-4%26oh%3D00_AfVEtOILe6C30jwyCtcSNycjLS5xcSgUUmQN5j8aZQLGGA%26oe%3D68AA7C43%26_nc_sid%3Ddc74e4&time=1755878400&key=bcde0cc273d8049d25a6b04278531c8c" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="p-4">
+                        <p class="text-gray-800 font-semibold">The Creator</p>
+                        <p class="text-gray-600 text-sm">ALLAH’s Plan Is Always Right ❤️ 
+                        </p>
+                    </div>
+                </div>
+                <!-- Video Placeholder 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:scale-105">
+                    <!-- REPLACE 'src' WITH YOUR VIDEO PATH -->
+                    <video controls muted class="w-full h-auto object-cover">
+                        <source src="https://cdn.inflact.com/media/AQMAK68X3vJXYqqEEDcQj0dSigHNowxXaleNntIfnYpDMXMX6lzdAf-rE1KvtDtrqDj3kTBFea5KJttFrNGvrA9nFGkT4BkyKIcyTEs.mp4?url=https%3A%2F%2Finstagram.febl5-2.fna.fbcdn.net%2Fo1%2Fv%2Ft16%2Ff2%2Fm82%2FAQMAK68X3vJXYqqEEDcQj0dSigHNowxXaleNntIfnYpDMXMX6lzdAf-rE1KvtDtrqDj3kTBFea5KJttFrNGvrA9nFGkT4BkyKIcyTEs.mp4%3Fstp%3Ddst-mp4%26efg%3DeyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uY2xpcHMuYzIuNzIwLmJhc2VsaW5lIn0%26_nc_cat%3D106%26vs%3D7391526584296594_2630245464%26_nc_vs%3DHBksFQIYT2lnX3hwdl9yZWVsc19wZXJtYW5lbnRfcHJvZC9BMjQzOUVGQzI3RUUwMzA5QzdFOTM3RUNFOTRFQjU4RV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYOnBhc3N0aHJvdWdoX2V2ZXJzdG9yZS9HRVNNM3hrOGtQWkxKbFFDQUZKX0Z0QV9VbE1fYnFfRUFBQUYVAgLIARIAKAAYABsAFQAAJq6OoPrixug%252FFQIoAkMzLBdANUQYk3S8ahgSZGFzaF9iYXNlbGluZV8xX3YxEQB1%252Fgdl5p0BAA%253D%253D%26_nc_rid%3Dd07c5d9b72%26ccb%3D9-4%26oh%3D00_AfUBhBBBUkEFFgMs6Os4Z3SUA63H8GWITIREeOK6gEUPoQ%26oe%3D68AA8E10%26_nc_sid%3Ddc74e4&time=1755878400&key=f14d3381a55eb7865f3606a72f740961" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="p-4">
+                        <p class="text-gray-800 font-semibold">Lights of Ramzan</p>
+                        <p class="text-gray-600 text-sm">RAMZAN x ZAKIR NAGAR ❤️🌙✨
+                        </p>
+                    </div>
+                </div>
+                <!-- Add more video placeholders as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="section-title text-3xl font-bold text-gray-800 mb-10 mx-auto w-fit">Get in Touch</h2>
+            <div class="max-w-xl mx-auto text-center">
+                <p class="text-lg text-gray-700 mb-8">
+                    Interested in collaborating or have a project in mind? Feel free to reach out!
+                </p>
+                <form class="space-y-6">
+                    <div>
+                        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                    </div>
+                    <div>
+                        <textarea placeholder="Your Message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition duration-300 ease-in-out transform hover:scale-105 shadow-md">
+                        Send Message
+                    </button>
+                </form>
+                <div class="mt-8 text-gray-600">
+                    <p>Email: <a href="mailto:hammad.elahi@example.com" class="text-blue-600 hover:underline">hammad.elahi@example.com</a></p>
+                    <p>Phone: <a href="tel:+1234567890" class="text-blue-600 hover:underline">+1 (234) 567-890</a></p>
+                    <!-- Social Media Links -->
+                    <div class="flex justify-center space-x-4 mt-4">
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-2xl" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-2xl" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-blue-600 hover:text-blue-800 text-2xl" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 text-center">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <p>&copy; 2025 Hammad Elahi. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
